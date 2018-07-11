@@ -49,7 +49,11 @@ client.on('message', message => {
       
   if (message.content.includes("satan")) {
       message.channel.send("You called?");
-  } 
+  } else
+      
+   if (message.content.includes("🔪")) {
+       message.channel.send("<:needblob:429925187530653696> *grabby hands*");
+   }
     
 });
 

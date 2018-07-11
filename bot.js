@@ -19,10 +19,6 @@ client.on('message', message => {
     message.channel.send("Let that fox burn in her own flames.");
   } else
 
-  if (message.content.includes("knife")) {
-    message.channel.send("Oh, a knife? May I see it?");
-  } else
-
   if (message.content.includes("Echo")) {
     message.channel.send("She can be rather... Entertaining.");
   } 

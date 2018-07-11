@@ -41,11 +41,10 @@ client.on('message', message => {
       
   if (message.content.includes("Eliana")) {
       message.channel.send("Mon Amour~"));
-  } 
-    
-    
-    
--});
--
--// THIS  MUST  BE  THIS  WAY
--client.login(process.env.BOT_TOKEN);
+  }
+
+ 
+});
+
+// THIS  MUST  BE  THIS  WAY
+client.login(process.env.BOT_TOKEN);

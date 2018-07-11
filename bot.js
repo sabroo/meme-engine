@@ -33,10 +33,12 @@ client.on('message', message => {
       
   if (message.content.includes("Hey, who are you?")) {
       message.channel.send("My name is Vinh, I'm the villain sent by Tofulife.");
-  }
-
- 
-});
-
-// THIS  MUST  BE  THIS  WAY
-client.login(process.env.BOT_TOKEN);
+  } else
+      
+  if (message.content.includes("Am I pretty Vinh")) {
+      message.channel.send("Not as pretty as I am.");
+  } else
+      
+  if (message.content.includes("Eliana")) {
+      message.channel.send("Mon Amour~"));
+  } 

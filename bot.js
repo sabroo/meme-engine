@@ -29,6 +29,10 @@ client.on('message', message => {
       
   if (message.content.includes("Kitty")) {
       message.channel.send("There's my darling kitten~");
+  } else
+      
+  if (message.content.includes("Exactly who are you?")) {
+      message.channel.send("My name is Vinh, I'm the villain sent by Tofusaur.");
   }
 
  

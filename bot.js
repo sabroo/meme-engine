@@ -14,18 +14,17 @@ client.on('message', message => {
     message.channel.send("Ah, did someone say knife? I do rather appreciate knives.");
   } else
 
-  if (message.content.includes("Inari")) {
-    message.channel.send("May that fox burn in her own flames.");
+  if (message.content.includes("Leo")) {
+    message.channel.send("Lion? More like a pesky kitten.");
   } else
 
-  if (message.content.includes("Leo")) {
-    message.channel.send("The lion? A mere kitten, in my opinion.");
+  if (message.content.includes("Inari")) {
+    message.channel.send("Let that fox burn in her own flames.");
   } else
-  
-   if (message.content.includes("Echo")) {
-    message.channel.send("She is rather... Entertaining.");
-  }
-     
+
+  if (message.content.includes("Echo")) {
+    message.channel.send("She can be rather... Entertaining.");
+  } 
 
  
 });

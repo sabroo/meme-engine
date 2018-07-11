@@ -21,7 +21,11 @@ client.on('message', message => {
 
   if (message.content.includes("Echo")) {
     message.channel.send("She can be rather... Entertaining.");
-  } 
+  } else
+      
+  if (message.content.includes("step on me vinh")) {
+     message.channel.send("With pleasure.");
+  }
 
  
 });

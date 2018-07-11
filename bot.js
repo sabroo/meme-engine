@@ -51,9 +51,10 @@ client.on('message', message => {
       message.channel.send("You called?");
   } else
       
-  if (message.content.includes("v_give :knife:")) {
-      message.channel.send("*grabby hands*");
-  }
+  if (message.content.includes("knife")) {
+      const knife = client.emojis.find("name", "knife");
+   message.reply(`${ayy} *grabby hands*`);
+}
  
 });
 

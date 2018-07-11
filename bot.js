@@ -28,7 +28,7 @@ client.on('message', message => {
   } else
       
   if (message.content.includes("Kitty")) {
-      message.channel.send("There's my darling kitten~");
+      message.channel.send("There's my darling kitty~");
   } else
       
   if (message.content.includes("Hey, who are you?")) {

@@ -40,7 +40,7 @@ client.on('message', message => {
   } else
       
   if (message.content.includes("Eliana")) {
-      message.channel.send("Mon Amour~"));
+      message.channel.send("Mon Amour~");
   }
 
  

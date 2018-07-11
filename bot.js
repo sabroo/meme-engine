@@ -41,6 +41,10 @@ client.on('message', message => {
       
   if (message.content.includes("Eliana")) {
       message.channel.send("Mon Amour~");
+  } else
+      
+  if (message.content.includes("eat me")) {
+      message.channel.send("Would you prefer to be sauteed or baked?");
   }
 
  

@@ -10,10 +10,7 @@ client.on('message', message => {
     	message.channel.send("Time to strangle my prey~");
   	} else
 
-  if (message.content.includes("knife")) {
-    message.channel.send("Ah, did someone say knife? I do rather appreciate knives.");
-  } else
-
+  
   if (message.content.includes("Leo")) {
     message.channel.send("Lion? More like a pesky kitten.");
   } else

@@ -36,7 +36,7 @@ client.on('message', message => {
   } else
       
   if (message.content.includes("Am I pretty Vinh")) {
-      message.channel.send("Not as pretty as I am.");
+      message.channel.send("Not as pretty as my knife sliding across your flawless skin <3.");
   } else
       
   if (message.content.includes("Eliana")) {
@@ -49,8 +49,11 @@ client.on('message', message => {
       
   if (message.content.includes("satan")) {
       message.channel.send("You called?");
+  } else
+      
+  if (message.content.includes("v_give :knife:")) {
+      message.channel.send("*grabby hands*");
   }
-
  
 });
 

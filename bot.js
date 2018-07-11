@@ -49,13 +49,8 @@ client.on('message', message => {
       
   if (message.content.includes("satan")) {
       message.channel.send("You called?");
-  } else
-      
-  if (message.content.includes("knife")) {
-      const knife = client.emojis.find("name", "knife");
-   message.reply(`${ayy} *grabby hands*`);
-}
- 
+  } 
+    
 });
 
 // THIS  MUST  BE  THIS  WAY

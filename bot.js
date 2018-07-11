@@ -25,6 +25,10 @@ client.on('message', message => {
       
   if (message.content.includes("step on me vinh")) {
      message.channel.send("With pleasure.");
+  } else
+      
+  if (message.content.includes("Kitty")) {
+      message.channel.send("There's my darling kitten~");
   }
 
  

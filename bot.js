@@ -55,7 +55,7 @@ client.on('message', message => {
        message.channel.send("<:needblob:429925187530653696> *grabby hands*");
    } else
        
-   if (message.content.includes("Princess Monarch")) {
+   if (message.content.includes("Amelia")) {
        message.channel.send("My little princess butterfly~ What is she up to now?");
    }
     

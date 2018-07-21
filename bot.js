@@ -39,10 +39,6 @@ client.on('message', message => {
       message.channel.send("Not as pretty as my knife sliding across your flawless skin <3.");
   } else
       
-  if (message.content.includes("Eliana")) {
-      message.channel.send("Mon Amour~");
-  } else
-      
   if (message.content.includes("eat me")) {
       message.channel.send("Would you prefer to be sauteed or baked?");
   } else
@@ -57,6 +53,10 @@ client.on('message', message => {
        
    if (message.content.includes("Amelia")) {
        message.channel.send("My little princess butterfly~ What is she up to now?");
+   } else
+   
+   if (message.content.includes("Monique")) {
+       message.channel.send("Ah, my precious jewel.");
    }
     
 });

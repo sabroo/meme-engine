@@ -6,57 +6,49 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content.startsWith("Chikelu")) {
-    	message.channel.send("Time to strangle my prey~");
+    if (message.content.startsWith("BOI")) {
+    	message.channel.send("DONT FUCK WITH ME!!!! I HAVE THE POWER OF GOD AND ANIME ON MY SIDE!!!");
   	} else
 
   
-  if (message.content.includes("Leo")) {
-    message.channel.send("Lion? More like a pesky kitten.");
+  if (message.content.includes("anime")) {
+    message.channel.send("Naruto is not an anime it is ART");
   } else
 
-  if (message.content.includes("Inari")) {
-    message.channel.send("Let that fox burn in her own flames.");
+  if (message.content.includes("max")) {
+    message.channel.send("bitch who?");
   } else
 
-  if (message.content.includes("Echo")) {
-    message.channel.send("She can be rather... Entertaining.");
+  if (message.content.includes("vapes")) {
+    message.channel.send("Not in my good Christian Discord");
   } else
       
-  if (message.content.includes("step on me vinh")) {
-     message.channel.send("With pleasure.");
+  if (message.content.includes("TEA")) {
+     message.channel.send("It's pipin' hot");
   } else
       
-  if (message.content.includes("Kitty")) {
-      message.channel.send("There's my darling kitty~");
+  if (message.content.includes("M'lady")) {
+      message.channel.send("*tips fedora*");
   } else
       
-  if (message.content.includes("Hey, who are you?")) {
-      message.channel.send("My name is Vinh, I'm the villain sent by Tofulife.");
+  if (message.content.includes("DOG")) {
+      message.channel.send("MY MOODS LIVE ON THAT SWING SAME");
   } else
       
-  if (message.content.includes("Am I pretty Vinh")) {
-      message.channel.send("Not as pretty as my knife sliding across your flawless skin <3.");
+  if (message.content.includes("GRIPS")) {
+      message.channel.send("PUSH ME, PUSH ME HARDER");
   } else
       
-  if (message.content.includes("eat me")) {
-      message.channel.send("Would you prefer to be sauteed or baked?");
+  if (message.content.includes("TWO")) {
+      message.channel.send("PUSH ME, PUSH ME SWANG INTO TOMORRA");
   } else
       
-  if (message.content.includes("satan")) {
-      message.channel.send("You called?");
+  if (message.content.includes("What's the best vine?")) {
+      message.channel.send("Dog Grips 2");
   } else
       
-   if (message.content.includes("🔪")) {
-       message.channel.send("<:needblob:429925187530653696> *grabby hands*");
-   } else
-       
-   if (message.content.includes("Amelia")) {
-       message.channel.send("My little princess butterfly~ What is she up to now?");
-   } else
-   
-   if (message.content.includes("Monique")) {
-       message.channel.send("Ah, my precious jewel.");
+   if (message.content.includes("REBECCA")) {
+       message.channel.send("I WONT HESITATE BITCH");
    }
     
 });
